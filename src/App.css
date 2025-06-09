@@ -60,34 +60,34 @@ body {
 
 
 /* Weather-specific backgrounds */
-.weather-clear {
-  background-image: url('https://source.unsplash.com/1600x900/?sunny,sky');
+body.weather-clear {
+  background-image: url('C:\Users\estok\weather-app\public\images\blue-sky.jpg');
 }
 
-.weather-clouds {
-  background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80');
+body.weather-clouds {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/e/e3/Clouds_over_the_Sun_Lake_in_Jasper_National_Park_-_Canada.jpg');
 }
 
-.weather-rain {
-  background-image: url('https://source.unsplash.com/1600x900/?rain,clouds');
+body.weather-rain {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/f/fd/Rain_in_Forest_01.JPG');
 }
 
-.weather-snow {
-  background-image: url('https://source.unsplash.com/1600x900/?snow,winter');
+body.weather-snow {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/1/11/Snow_covered_landscape_in_Germany.jpg');
 }
 
-.weather-thunderstorm {
-  background-image: url('https://source.unsplash.com/1600x900/?storm,lightning');
+body.weather-thunderstorm {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/58/Lightning_Storm_in_Toronto.jpg');
 }
 
-.weather-drizzle {
-  background-image: url('https://source.unsplash.com/1600x900/?drizzle,rain');
+body.weather-drizzle {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/3a/Drizzle_in_forest.jpg');
 }
 
-.weather-mist,
-.weather-haze,
-.weather-fog {
-  background-image: url('https://source.unsplash.com/1600x900/?fog,mist');
+body.weather-mist,
+body.weather-haze,
+body.weather-fog {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/2/26/Mist_in_Forest.jpg');
 }
 
 /* Container styling */
